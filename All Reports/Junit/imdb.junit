@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.975617">
+    <testcase classname="to validate the imdb page" name="to validate the imdb page by searching any film" time="9.975617">
+        <system-out><![CDATA[When user have to enter the film name and click the enter button for first drop down name suggestion.passed
+And user have to scroll down and scroll up..................................passed
+And user have to take screenshot for the film...............................passed
+And user have to get the film name, synopsis and director name..............passed
+Then user have to close the Imdb tab........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

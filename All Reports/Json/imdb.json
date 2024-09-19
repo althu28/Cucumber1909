@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-18T11:18:55.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8194300300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 214275200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9356200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "to validate the imdb page by searching any film",
+        "description": "",
+        "id": "to-validate-the-imdb-page;to-validate-the-imdb-page-by-searching-any-film",
+        "after": [
+          {
+            "result": {
+              "duration": 175600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1441402300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the film name and click the enter button for first drop down name suggestion",
+            "match": {
+              "location": "Step.user_have_to_enter_the_film_name_and_click_the_enter_button_for_first_drop_down_name_suggestion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1631700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have to scroll down and scroll up",
+            "match": {
+              "location": "Step.user_have_to_scroll_down_and_scroll_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user have to take screenshot for the film",
+            "match": {
+              "location": "Step.user_have_to_take_screenshot_for_the_film()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1402200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user have to get the film name, synopsis and director name",
+            "match": {
+              "location": "Step.user_have_to_get_the_film_name_synopsis_and_director_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have to close the Imdb tab",
+            "match": {
+              "location": "Step.user_have_to_close_the_Imdb_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Imdb"
+          }
+        ]
+      }
+    ],
+    "name": "to validate the imdb page",
+    "description": "",
+    "id": "to-validate-the-imdb-page",
+    "keyword": "Feature",
+    "uri": "file:Imdb.feature",
+    "tags": [
+      {
+        "name": "@Imdb",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
