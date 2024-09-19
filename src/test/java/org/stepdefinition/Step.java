@@ -49,7 +49,7 @@ public class Step extends BaseClass {
 	@Then("user have to close the Imdb tab")
 	public void user_have_to_close_the_Imdb_tab() {
 	    
-		
+		System.out.println("HUSSAIN ADDED THE CODE!");
 		
 	}
 	
